@@ -6,7 +6,7 @@ The `hymns.json` file contains every hymn in the green LDS hymnal keyed by song 
 
 The `hymns.json` file can be used directly without having to host the file yourself using [RawGit](https://rawgit.com) as it uses CORS headers.
 
-Basic jQuery Example using [RawGit.com](https://rawgit.com):
+Basic jQuery Example using [statically.io](https://statically.io):
 
     var hymnURL= 'https://cdn.statically.io/gh/pseudosavant/LDSHymns/c3a00214e2f879a855f5894b345596dd6c547b70/hymns.json';
     $.getJSON(
