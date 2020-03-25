@@ -8,7 +8,7 @@ The `hymns.json` file can be used directly without having to host the file yours
 
 Basic jQuery Example using [RawGit.com](https://rawgit.com):
 
-    var hymnURL= 'https://cdn.rawgit.com/pseudosavant/LDSHymns/83bdcf9cce634e61f76aa879fb490e2f64b9d768/hymns.json';
+    var hymnURL= 'https://cdn.statically.io/gh/pseudosavant/LDSHymns/c3a00214e2f879a855f5894b345596dd6c547b70/hymns.json';
     $.getJSON(
       hymnURL,
       function (hymns){
@@ -17,4 +17,4 @@ Basic jQuery Example using [RawGit.com](https://rawgit.com):
       }
     )
 
-This is a JSBin example that leverages RawGit: http://output.jsbin.com/xopode
+There is a Glitch example that leverages statically.io: https://lds-hymns-lookup.glitch.me/
